@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCG X AI - Financial Query</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header class = "header_form">
+        <h1>BCG X AI - Financial Analysis</h1>
+        <p>Select a company and financial metric to retrieve data.</p>
+    </header>
+
+    <main>
+        <form action="{{url_for('chat')}}" method="POST">
+            <div class="form-group">
+                <label><strong>Select a Company:</strong></label><br>
+                <input type="radio" name="company" value="Apple"> Apple<br>
+                <input type="radio" name="company" value="Microsoft"> Microsoft<br>
+                <input type="radio" name="company" value="Tesla"> Tesla<br>
+            </div>
+
+            <div class="form-group">
+                <label><strong>Select a Financial Metric:</strong></label>
+                <select name="metric">
+                    <option value="Total Revenue">Total Revenue</option>
+                    <option value="Net Income">Net Income</option>
+                    <option value="Total Assets">Total Assets</option>
+                    <option value="Total Liabilities">Total Liabilities</option>
+                    <option value="Operating Cash Flow">Operating Cash Flow</option>
+                    <option value="Revenue Growth (%)">Revenue Growth (%)</option>
+                    <option value="Net Income Growth (%)">Net Income Growth (%)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label><strong>Select a Year:</strong></label>
+                <select name="year">
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                </select>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <h3>{{result}}</h3>
+    </main>
+</body>
+</html>

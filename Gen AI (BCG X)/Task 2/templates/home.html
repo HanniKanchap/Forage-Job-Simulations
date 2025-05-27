@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCG X AI Chatbot for Financial Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>BCG X AI Chatbot</h1>
+        <p>Your AI-powered financial analysis assistant</p>
+        <button class="start-btn"><a href = "{{url_for('chat')}}">Get Started</a></button>
+    </header>
+
+    <section class="features">
+        <h2>Key Features</h2>
+        <div class="feature-box">
+            <div class="feature">
+                <h3>Real-Time Insights</h3>
+                <p>Analyze financial data instantly with AI-powered predictions.</p>
+            </div>
+            <div class="feature">
+                <h3>Interactive Chat</h3>
+                <p>Get financial guidance through intelligent chatbot conversations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Why Choose BCG X AI?</h2>
+        <p>BCG X AI leverages cutting-edge technology to provide precise financial insights, helping businesses and individuals make informed decisions.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 BCG X AI Chatbot | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
