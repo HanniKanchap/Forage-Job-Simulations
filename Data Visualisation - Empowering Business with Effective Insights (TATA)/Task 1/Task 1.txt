@@ -1,0 +1,16 @@
+FOR CMO :
+
+ What is the sales pattern over years and months in a year ?
+List the products which majorly contributes to the revenue .
+List the products which have fluctuating unit price  and sales.
+Find the countries which have major contribution in revenue .
+
+FOR CEO :
+
+ 1. List the products whose purchase is most frequent and in large quantities .
+
+2. List the products whose sales reduces after their first purchase by a customer.
+
+3. Analyze the trends of products purchase over the years.
+
+4. Who are the regular customers and analyze their purchases ?
