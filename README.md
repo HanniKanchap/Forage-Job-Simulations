@@ -11,6 +11,7 @@ This repository showcases my completed exercises for job simulations from leadin
 🔹 **BCG X Generative AI Virtual Job Simulation**  
 🔹 **BCG X Data Science Virtual Job Simulation**  
 🔹 **British Airways Data Science Virtual Experience Program**  
+🔹 **Tata Data Visualisation : Empowering Business with Effective Insights** 
 
 ## 🎯 Purpose
 
