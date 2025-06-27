@@ -1,0 +1,34 @@
+Subject: PowerCo Churn Analysis – Data Needs and Approach
+
+Respected AD,
+
+Estelle and I have outlined our approach to investigate PowerCo’s customer churn using the 5-step data science process:
+
+1. Define the Problem:
+PowerCo wants to understand why customers are leaving and identify key factors driving churn.
+
+2. Collect the Data:
+We will need:
+
+Customer demographics and location
+Energy usage history (past 5 years)
+Pricing and contract details
+Churn status (active/inactive)
+Customer service logs
+Survey/feedback data
+Marketing campaign exposure
+Competitor pricing (if available)
+
+3. Prepare the Data:
+Clean, format, and engineer features like tenure, complaint frequency, and monthly spend.
+
+4. Analyze the Data:
+Use statistical analysis, visualizations, and machine learning (e.g., logistic regression, decision trees) to identify churn drivers.
+
+5. Communicate Findings:
+Summarize insights using dashboards, churn prediction models, and recommend retention strategies.
+
+Key churn factors likely include: price, clean energy options, customer service quality, and location.
+
+Kind regards,
+Hanni
